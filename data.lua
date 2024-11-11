@@ -13,16 +13,20 @@ local recipe_wooden_stick =
     name = 'recipe-wooden-stick',
     icon = '__from-the-ground-up__/sprite/wooden-stick.png',
 
-    normal = 
+    enabled = true,
+
+    ingredients = 
     {
-        enabled = true,
+        {
+            type = 'item', 
+            name = 'wood', 
+            amount = 1
+        }
+    },
 
-        ingredients = {{"wood", 1}},
+    results = {{type = "item", name = "wooden-stick", amount = 1}},
 
-        result = "wooden-stick",
-
-        energy_required = 2
-    }
+    energy_required = 2
 }
 
 data:extend({wooden_stick, recipe_wooden_stick});
