@@ -1,0 +1,10 @@
+{
+    "name": "from-the-ground-up",
+    "version": "0.0.1",
+    "title": "From the ground up",
+    "description": "Overhaul mod focusing on early technology and brutal realism",
+    "author": "Moon794",
+    "factorio_version": "2.0",
+    "dependencies": ["base >= 2.0.0"],
+    "homepage": "https://github.com/Moon-794/from-the-ground-up"
+}
